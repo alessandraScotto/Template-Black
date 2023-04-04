@@ -1,0 +1,56 @@
+:root {
+    --mainBlue: #2B9DF4;
+}
+
+.colorMain {
+    color: #2B9DF4;
+}
+
+.fontOrbi {
+font-family: 'Orbitron', sans-serif;
+}
+
+.fontJura {
+font-family: 'Jura', sans-serif;
+
+}
+
+body {
+    background-color: black;
+}
+
+h3, p {
+    color: white;
+}
+
+.marginSection {
+    margin-top: 10%;
+}
+
+.marginTop {
+    margin-top: 30%;
+}
+
+
+
+header {
+    height: 100vh;
+    background-image:linear-gradient(black,rgba(0, 0, 0, 0.21),black), url(./media/moon.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.borderCard {
+
+    background-color: black;
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--mainBlue) !important;
+}
+
+.JustifyText {
+    text-align: justify;
+}
