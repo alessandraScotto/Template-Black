@@ -7,11 +7,11 @@
 }
 
 .fontOrbi {
-font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .fontJura {
-font-family: 'Jura', sans-serif;
+    font-family: 'Jura', sans-serif;
 
 }
 
@@ -19,7 +19,8 @@ body {
     background-color: black;
 }
 
-h3, p {
+h3,
+p {
     color: white;
 }
 
@@ -35,10 +36,10 @@ h3, p {
 
 header {
     height: 100vh;
-    background-image:linear-gradient(black,rgba(0, 0, 0, 0.21),black), url(./media/moon.jpg);
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0.21), black), url(./media/moon.jpg);
     background-size: cover;
     background-position: center;
-    
+
 }
 
 .borderCard {
@@ -53,4 +54,38 @@ header {
 
 .JustifyText {
     text-align: justify;
+}
+
+.btnSize {
+    width: 180px;
+    height: 60px;
+    border: none;
+    position: relative;
+
+}
+
+
+.angleLato {
+    border-top: 4px solid var(--mainBlue);
+    border-left: 4px solid var(--mainBlue);
+    border-bottom: 4px solid var(--mainBlue);
+    border-right: 4px solid var(--mainBlue);
+    height: 15px;
+    width: 15px;
+}
+
+.section6 {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.128), rgba(0, 0, 0, 0.562)), url(./media/sunrise-1765027_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+
+
+.lineEnd {
+    border: solid 3px var(--mainBlue);
+    border-radius: 50%;
+
 }
