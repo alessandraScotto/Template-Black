@@ -1,5 +1,5 @@
 :root {
-    --mainBlue: #2B9DF4;
+    --mainBlue: rgb(43, 157, 244);
 }
 
 .colorMain {
@@ -85,8 +85,15 @@ header {
 
 
 .lineEnd {
-    border: solid 3px var(--mainBlue);
-    border-radius: 50%;
-
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid transparent;
+    border-image: 
+    linear-gradient(to left, rgba(0,0,0), black, rgba(43,157,244,1), black, rgb(0,0,0));
+    border-image-slice: 5;
+    width:100%;
 } 
 
+.imgSpace {
+    height: 100vh;
+}
